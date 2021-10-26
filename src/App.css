@@ -4,21 +4,38 @@
   font-style: normal;
   font-weight: normal;
 }
-
+@font-face{
+  font-family: 'openB';
+  src: url('./fonts/static/OpenSans/OpenSans-ExtraBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face{
+  font-family: 'openL';
+  src: url('./fonts/static/OpenSans/OpenSans-Light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
 .App {
   text-align: center;
+  /* width: 80%; */
+  margin: 0 auto;
+
+}
+
+.content-1, .content-3{
+  background-image: url('./images/bg01.png');
+}
+.content-1-1{
   width: 80%;
   margin: 0 auto;
-  /* background-color: #61dafb; */
-}
-body{
 
-  background-image: url('./images/pic02.jpg');
 }
-/* h1{
-  font-family: 'oleo';
-  color: tomato;
-} */
+.content-1-2{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
 
 .App-logo {
   height: 40vmin;
@@ -26,16 +43,20 @@ body{
 }
 
 
+ .App-header {
 
-.App-header {
-  /* background-color: #282c34; */
-  min-height: 100vh;
+
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
   color: white;
+} 
+
+
+@media (max-width: 600px){
+  .content-1-2{
+    flex-direction: column;
+  }
 }
-
-

@@ -1,5 +1,12 @@
 .option{
-  text-decoration: none;
-  margin-left: 8px;
+  font-size: 1rem;
   color: gray;
+  font-family: 'openB';
+  margin-left: 8px;
+  text-decoration: none;
+}
+.option:hover{
+  background-color: #444444;
+  color: #fff;
+
 }

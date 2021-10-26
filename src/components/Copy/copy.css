@@ -1,0 +1,45 @@
+.copy{
+  background-color:white;
+  display: flex;
+  padding: 30px;
+}
+.copy h2{
+  font-family: 'openB';
+  font-weight: bold;
+}
+.copy-text{
+  text-align: left;
+  flex-grow: 2;
+  flex-basis: 50%;
+}
+.copy-text p{
+  font-family: 'openL';
+}
+.copy-btn{
+  text-align: left;
+  flex-grow: 1
+}
+.btn-primario{
+  background-color: #1591c4;
+  border: none;
+  padding: 1rem;
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'openB';
+  font-size: 1.3rem;
+  color: white;
+  cursor: pointer;
+}
+.btn-primario:hover{
+  background-color: #207caa;
+ 
+}
+.btn-secundario{
+  background-color: #f2f2f2;
+  border: none;
+  padding: 1rem;
+  display: block;
+  font-family: 'openB';
+  font-size: 1.3rem;
+  color: #444444;
+}
