@@ -13,6 +13,8 @@ import img6 from './images/pic06.jpg'
 import img7 from './images/pic07.jpg'
 import PaletaColores from './components/PaletaColores';
 import Texto from './components/Texto';
+import Links from './components/Links';
+
 
 const images = {
   img4: img4,
@@ -20,6 +22,24 @@ const images = {
   img6: img6,
   img7: img7
 }
+const links = [
+  {
+    href: 'https://www.google.com.co/',
+    text: "google",
+  },
+  {
+    href: 'www.google.com',
+    text: "google",
+  },
+  {
+    href: 'www.google.com',
+    text: "google",
+  },
+  {
+    href: 'www.google.com',
+    text: "google",
+  },
+]
 
 const content = `Lorem Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to Lorem Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to  Lorem Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to </br> 
 </br> Lorem Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to`
@@ -50,7 +70,7 @@ function App() {
       </div>
       <div className="content-3">
         <div className='content-3-1'>
-
+        <Links links={links}/>
         <Logo />
         </div>
 
