@@ -1,6 +1,39 @@
 .tarjeta{
   margin: 0 20px 0 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 2px gray;
+  max-width: 30%;
 }
 .tarjeta img{
   width: 100%;
+  object-fit: fill;
+  border-radius: 8px 8px 0 0;
+
+}
+.tarjeta figure{
+  margin: 0;
+  width: 100%;
+  position: relative;
+}
+.tarjeta h3{
+  padding: 0 0 3% 3%;
+  margin: 0;
+  font-family: 'openB';
+  color:white;
+  position: absolute;
+  bottom: 0;
+}
+.tarjeta h4{
+  font-family: 'openB';
+}
+#text{
+  padding: 0 20px 20px 20px ;
+}
+
+@media (max-width: 600px){
+
+  .tarjeta{
+    max-width: 100%;
+  }
 }

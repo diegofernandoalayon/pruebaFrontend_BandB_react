@@ -1,12 +1,16 @@
 import './tarjeta.css'
 
-export default function Tarjeta({children,srcImg,title}){
-  console.log(srcImg)
+export default function Tarjeta({srcImg,title,titleOfText,children}){
   return(
     <div className="tarjeta">
-      <img src={srcImg} alt="imagen"/>
-      <p><strong>{title}</strong></p>
-      <p>{children}</p>
+      <figure>
+        <h3>{title}</h3>
+        <img src={srcImg} alt="imagen"/>
+      </figure>
+      <div id='text'>
+        <h4>{titleOfText}</h4>
+        <p>{children}</p>
+      </div>
     </div>
   )
 }

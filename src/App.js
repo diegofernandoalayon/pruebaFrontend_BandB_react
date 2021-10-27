@@ -21,9 +21,9 @@ function App() {
           <Copy />
         </div>
         <div className="content-1-2">
-          <Tarjeta srcImg={img1} title={"hola"} >Casas</Tarjeta>
-          <Tarjeta srcImg={img2} />
-          <Tarjeta srcImg={img3} />
+          <Tarjeta srcImg={img1} title="something here" titleOfText='algun texto'>t perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</Tarjeta>
+          <Tarjeta srcImg={img2} title={'interesting title'} titleOfText={'interesting subtitle'} >is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has</Tarjeta>
+          <Tarjeta srcImg={img3} title={'finally title'} titleOfText={'finally subtitle'}>umour, or randomised words which don't look even slightly believable. If you are going to</Tarjeta>
         </div>
       </div>
       <div className="content-2">
