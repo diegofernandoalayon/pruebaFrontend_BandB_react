@@ -1,0 +1,8 @@
+.contact{
+  text-align: left;
+}
+.social{
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+}

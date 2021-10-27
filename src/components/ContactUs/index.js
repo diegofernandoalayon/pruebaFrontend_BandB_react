@@ -1,3 +1,4 @@
+import './contactUs.css'
 
 import instagram from '../../images/instagram.png'
 import facebook from '../../images/facebook.png'
@@ -8,7 +9,7 @@ import twitter from '../../images/twitter.png'
 export default function Contact(){
 
   return(
-    <div>
+    <div className="contact">
       <h3>Contact Us</h3>
       <ul className ='link-list '> 
         <li className='social'>

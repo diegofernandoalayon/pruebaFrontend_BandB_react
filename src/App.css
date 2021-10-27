@@ -20,6 +20,8 @@
   --colorText: #444;
   --colorBtnPrimary: #1596c4;
   --colorTextBtnPrimary: white;
+  --totalWidth: 70%;
+  --widthResponse: 95%;
 }
 .App {
   color: var(--colorText);
@@ -35,34 +37,35 @@
   padding-bottom: 30px;
 }
 .content-1-1{
-  width: 80%;
+  width: var(--totalWidth);
   margin: 0 auto;
 
 }
 .content-1-2{
-  width: 80%;
+  width: var(--totalWidth);
   margin: 0 auto;
   display: flex;
   text-align: left;
   justify-content: space-between;
 }
 .content-2-1{
-  width: 80%;
+  width: var(--totalWidth);
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 2rem;
 }
 .content-3-1{
-  width: 80%;
+  width: var(--totalWidth);
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 
  .App-header {
@@ -77,15 +80,24 @@
 
 
 @media (max-width: 600px){
+  .content-1-1{
+    width: var(--widthResponse);
+  }
   .content-1-2{
     flex-direction: column;
+    width: var(--widthResponse);
   }
   .tarjeta{
     margin-bottom: 200px;
     max-width: 100%;
   }
   .content-2-1{
+    width: var(--widthResponse);
     grid-template-columns: 1fr;
     grid-gap:3rem;
+  }
+  .content-3-1{
+    flex-wrap: wrap;
+    width: var(--widthResponse);
   }
 }
