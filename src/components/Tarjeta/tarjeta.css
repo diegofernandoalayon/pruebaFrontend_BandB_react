@@ -1,5 +1,5 @@
 .tarjeta{
-  margin: 0 20px 0 20px;
+  margin: 0 16px 0 16px;
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 0 2px gray;
@@ -34,6 +34,7 @@
 @media (max-width: 600px){
 
   .tarjeta{
+    margin-bottom: 40px;
     max-width: 100%;
   }
 }

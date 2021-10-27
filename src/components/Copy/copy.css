@@ -2,6 +2,8 @@
   background-color:white;
   display: flex;
   padding: 30px;
+  margin-bottom: 1.3rem;
+  border-radius: 8px;
 }
 .copy h2{
   font-family: 'openB';
@@ -19,16 +21,28 @@
   text-align: left;
   flex-grow: 1
 }
-.btn-primario{
-  background-color: #1591c4;
+.btn{
   border: none;
   padding: 1rem;
-  display: block;
-  margin-bottom: 10px;
+  cursor: pointer;
   font-family: 'openB';
   font-size: 1.3rem;
+  width: 200px;
+  display: flex;
+  border-radius: 8px;
+}
+.btn-primario{
+  background-color: #1591c4;
+ 
+  
+  margin-bottom: 10px;
   color: white;
-  cursor: pointer;
+ 
+
+}
+.btn img{
+  margin: auto;
+  margin-left: 1.3rem;
 }
 .btn-primario:hover{
   background-color: #207caa;
@@ -36,10 +50,13 @@
 }
 .btn-secundario{
   background-color: #f2f2f2;
-  border: none;
-  padding: 1rem;
-  display: block;
-  font-family: 'openB';
-  font-size: 1.3rem;
   color: #444444;
+}
+.btn-secundario:hover{
+  background-color: #dfdbdb;
+}
+@media (max-width: 600px){
+  .copy{
+    flex-direction: column;
+  }
 }

@@ -24,7 +24,9 @@
 }
 
 .content-1, .content-3{
-  background-image: url('./images/bg01.png');
+  /* background-image: url('./images/bg01.png'); */
+  background-color: rgba(200, 200, 200, 0.3);
+  padding-bottom: 30px;
 }
 .content-1-1{
   width: 80%;
@@ -61,6 +63,7 @@
     flex-direction: column;
   }
   .tarjeta{
+    margin-bottom: 200px;
     max-width: 100%;
   }
 }
