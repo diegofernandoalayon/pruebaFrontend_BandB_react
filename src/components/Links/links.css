@@ -1,0 +1,9 @@
+.link-list{
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  font-family: 'openL';
+}
+.link-item a{
+  color:var(--colorText)
+}

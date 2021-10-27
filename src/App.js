@@ -14,6 +14,7 @@ import img7 from './images/pic07.jpg'
 import PaletaColores from './components/PaletaColores';
 import Texto from './components/Texto';
 import Links from './components/Links';
+import Contact from './components/ContactUs';
 
 
 const images = {
@@ -29,15 +30,33 @@ const links = [
   },
   {
     href: 'www.google.com',
+    text: "google aoeua oea oeu",
+  },
+  {
+    href: 'www.google.com',
+    text: "google aouao aoeu",
+  },
+  {
+    href: 'www.google.com',
+    text: "google aoeu aoe aoe",
+  },
+]
+const links2 = [
+  {
+    href: 'https://www.google.com.co/',
     text: "google",
   },
   {
     href: 'www.google.com',
-    text: "google",
+    text: "nada nada nada",
   },
   {
     href: 'www.google.com',
-    text: "google",
+    text: "nada nada",
+  },
+  {
+    href: 'www.google.com',
+    text: "de nuevo nada",
   },
 ]
 
@@ -70,12 +89,14 @@ function App() {
       </div>
       <div className="content-3">
         <div className='content-3-1'>
-        <Links links={links}/>
-        <Logo />
+          <Links links={links}/>
+          <Links links={links2}/>
+          <Links links={links2}/>
+          <Contact />
         </div>
 
       </div>
-
+      <footer>casa</footer>
     </div>
   );
 }
