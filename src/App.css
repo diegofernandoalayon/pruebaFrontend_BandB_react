@@ -17,6 +17,8 @@
   font-weight: normal;
 }
 :root{
+  --colorBackground: #444;
+  --colorBackgroundMenu: white;
   --colorText: #444;
   --colorBtnPrimary: #1596c4;
   --colorTextBtnPrimary: white;
@@ -35,6 +37,9 @@
   /* background-image: url('./images/bg01.png'); */
   background-color: rgba(200, 200, 200, 0.3);
   padding-bottom: 30px;
+}
+.content-2{
+  padding-bottom:1rem;
 }
 .content-1-1{
   width: var(--totalWidth);
