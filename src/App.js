@@ -7,7 +7,22 @@ import Tarjeta from './components/Tarjeta';
 import img1 from './images/pic01.jpg'
 import img2 from './images/pic02.jpg'
 import img3 from './images/pic03.jpg'
+import img4 from './images/pic04.jpg'
+import img5 from './images/pic05.jpg'
+import img6 from './images/pic06.jpg'
+import img7 from './images/pic07.jpg'
+import PaletaColores from './components/PaletaColores';
+import Texto from './components/Texto';
 
+const images = {
+  img4: img4,
+  img5: img5,
+  img6: img6,
+  img7: img7
+}
+
+const content = `Lorem Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to Lorem Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to  Lorem Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to </br> 
+</br> Lorem Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to`
 
 function App() {
   return (
@@ -27,10 +42,17 @@ function App() {
         </div>
       </div>
       <div className="content-2">
-        <Logo />
+        <div className="content-2-1">
+          <PaletaColores srcImg={images} title={"Intereting stuff"} />
+
+          <Texto title={"So What's this all about?"} content={content} />
+        </div>
       </div>
       <div className="content-3">
+        <div className='content-3-1'>
+
         <Logo />
+        </div>
 
       </div>
 

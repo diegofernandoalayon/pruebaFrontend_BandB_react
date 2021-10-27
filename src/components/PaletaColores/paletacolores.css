@@ -1,0 +1,40 @@
+
+.paleta{
+  width: 100%;
+}
+.titulo-paleta{
+  font-family: 'openB';
+  text-align: left;
+ 
+}
+.colores-paleta{
+  /* display:flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1rem;
+}
+.colores-paleta img{
+   border-radius: 8px;
+  /*margin-bottom: 20px; */
+  width: 100%;
+}
+.btn-paleta{
+  margin-top: 20px;
+  width: 30%;
+  border: none;
+  font-family: 'openB';
+  display: flex;
+  padding: 6px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 8px;
+  color: var(--colorTextBtnPrimary);
+  background-color: var(--colorBtnPrimary);
+}
+@media (max-width: 600px){
+  .paleta{
+    width: 100%;
+  }
+}

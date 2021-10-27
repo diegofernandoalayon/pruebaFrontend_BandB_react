@@ -1,9 +1,10 @@
 .tarjeta{
-  margin: 0 16px 0 16px;
+  /* margin: 0 16px 0 16px; */
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 0 2px gray;
   max-width: 30%;
+  justify-content: space-between;
 }
 .tarjeta img{
   width: 100%;

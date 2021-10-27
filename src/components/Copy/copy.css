@@ -8,6 +8,7 @@
 .copy h2{
   font-family: 'openB';
   font-weight: bold;
+  font-size: 2rem;
 }
 .copy-text{
   text-align: left;
@@ -27,28 +28,29 @@
   cursor: pointer;
   font-family: 'openB';
   font-size: 1.3rem;
-  width: 200px;
   display: flex;
   border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
 }
 .btn-primario{
+  width: 100%;
   background-color: #1591c4;
- 
-  
   margin-bottom: 10px;
   color: white;
- 
-
+  
+  
 }
 .btn img{
-  margin: auto;
+  /* margin: auto; */
   margin-left: 1.3rem;
 }
 .btn-primario:hover{
   background-color: #207caa;
- 
+  
 }
 .btn-secundario{
+  width: 100%;
   background-color: #f2f2f2;
   color: #444444;
 }
