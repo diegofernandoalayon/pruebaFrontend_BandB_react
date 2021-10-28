@@ -24,11 +24,15 @@
   color:white;
   position: absolute;
   bottom: 0;
+  cursor: pointer;
+}
+.tarjeta h3:hover{
+  transform: scale(1.02,1.02);
 }
 .tarjeta h4{
   font-family: 'openB';
 }
-#text{
+.text{
   padding: 0 20px 20px 20px ;
 }
 
