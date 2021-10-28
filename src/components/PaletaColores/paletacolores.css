@@ -32,6 +32,10 @@
   border-radius: 8px;
   color: var(--colorTextBtnPrimary);
   background-color: var(--colorBtnPrimary);
+  cursor: pointer;
+}
+.btn-paleta:hover{
+  background-color: var(--colorBtnPrimaryHover);
 }
 @media (max-width: 600px){
   .paleta{

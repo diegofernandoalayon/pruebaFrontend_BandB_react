@@ -17,4 +17,8 @@
   border-radius: 8px;
   color: var(--colorTextBtnPrimary);
   background-color: var(--colorBtnPrimary);
+  cursor: pointer;
+}
+.btn-texto:hover{
+  background-color: var(--colorBtnPrimaryHover);
 }

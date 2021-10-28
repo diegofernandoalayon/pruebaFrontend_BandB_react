@@ -4,6 +4,7 @@
   padding: 30px;
   margin-bottom: 1.3rem;
   border-radius: 8px;
+  gap: 1rem;
 }
 .copy h2{
   font-family: 'openB';
@@ -35,9 +36,9 @@
 }
 .btn-primario{
   width: 100%;
-  background-color: #1591c4;
+  background-color: var(--colorBtnPrimary);
   margin-bottom: 10px;
-  color: white;
+  color: var(--colorTextBtnPrimary);
   
   
 }
@@ -46,16 +47,16 @@
   margin-left: 1.3rem;
 }
 .btn-primario:hover{
-  background-color: #207caa;
+  background-color: var(--colorBtnPrimaryHover);
   
 }
 .btn-secundario{
   width: 100%;
-  background-color: #f2f2f2;
-  color: #444444;
+  background-color: var(--colorBtnSecondary);
+  color: var(--colorText);
 }
 .btn-secundario:hover{
-  background-color: #dfdbdb;
+  background-color: var(--colorBtnSecondaryHover);
 }
 @media (max-width: 600px){
   .copy{

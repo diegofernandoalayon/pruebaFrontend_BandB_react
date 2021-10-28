@@ -21,9 +21,13 @@
   --colorBackgroundMenu: white;
   --colorText: #444;
   --colorBtnPrimary: #1596c4;
+  --colorBtnPrimaryHover:#207caa;
+  --colorBtnSecondary:#f2f2f2;
+  --colorBtnSecondaryHover: #dfdbdb;
   --colorTextBtnPrimary: white;
   --totalWidth: 70%;
   --widthResponse: 95%;
+  --colorLogo: tomato;
 }
 .App {
   color: var(--colorText);

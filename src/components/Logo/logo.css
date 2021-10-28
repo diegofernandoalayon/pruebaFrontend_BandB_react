@@ -1,6 +1,6 @@
 #logo{
   font-family: 'oleo';
-  color: tomato;
+  color: var(--colorLogo);
 }
 #logo:hover{
   transform: scale(1.02,1.02);
