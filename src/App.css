@@ -71,12 +71,6 @@
   justify-content: space-between;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-
-
  .App-header {
   display: flex;
   flex-direction: row;
@@ -86,8 +80,10 @@
   color: white;
   
 } 
-
-
+footer{
+  font-family: 'openl';
+  font-size: 0.6rem;
+}
 @media (max-width: 600px){
   .content-1-1{
     width: var(--widthResponse);

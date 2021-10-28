@@ -62,7 +62,7 @@ const links2 = [
 
 const content = [
   "Lorem Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to Lorem Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to  Lorem Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to",
-  
+
   " Lorem Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to Ipsum is that it has or randomised words which don't look even slightly believable. If you are going to"
 
 ] 
@@ -99,8 +99,8 @@ function App() {
           <Contact />
         </div>
 
+      <footer>casa. All rights reserved</footer>
       </div>
-      <footer>casa</footer>
     </div>
   );
 }
